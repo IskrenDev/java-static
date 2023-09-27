@@ -30,7 +30,10 @@ public class Count {
         this.instanceCount = instanceCount;
     }
 
-    public
+    public void incrementInstanceCount() {
+        this.instanceCount++;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
