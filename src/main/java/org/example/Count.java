@@ -22,14 +22,15 @@ public class Count {
         return this.instanceCount;
     }
 
-    public static int incrementTotalCount() {
-        return totalCount++;
+    public static void incrementTotalCount() {
+        totalCount++;
     }
 
     public void setInstanceCount(int instanceCount) {
         this.instanceCount = instanceCount;
     }
 
+    public
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
