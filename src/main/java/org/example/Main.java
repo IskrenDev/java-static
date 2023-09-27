@@ -28,6 +28,11 @@ public class Main {
         System.out.println(count2);
         System.out.println(count3);
 
+        System.out.println("\n");
+        System.out.println(Calculator.add(10, 10));
+        System.out.println(Calculator.sub(10, 10));
+        System.out.println(Calculator.divide(10, 10));
+        System.out.println(Calculator.multiply(10, 10));
 
     }
 }
