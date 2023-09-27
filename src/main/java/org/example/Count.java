@@ -22,6 +22,10 @@ public class Count {
         return this.instanceCount;
     }
 
+    public static int incrementTotalCount() {
+        return totalCount++;
+    }
+
     public void setInstanceCount(int instanceCount) {
         this.instanceCount = instanceCount;
     }
